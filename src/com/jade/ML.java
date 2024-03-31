@@ -1,4 +1,4 @@
-package Jade;
+package com.jade;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;

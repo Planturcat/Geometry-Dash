@@ -4,22 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1314db1-7893-42cb-ae80-802aac206bde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Geometry-Dash.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jade/KL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jade/LevelEditorScene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jade/ML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jade/Scene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Jade/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Time.java" afterDir="false" />
+    <list default="true" id="e1314db1-7893-42cb-ae80-802aac206bde" name="Changes" comment="beginning utilities and class creations">
+      <change afterPath="$PROJECT_DIR$/src/com/Components/BoxBounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dataStructure/Transform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jade/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jade/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/util/Vector2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jade/KL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jade/KL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jade/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jade/LevelEditorScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jade/ML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jade/ML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jade/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jade/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jade/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/util/Time.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.Main" />
@@ -93,18 +93,31 @@
       <option name="presentableId" value="Default" />
       <updated>1711616130082</updated>
     </task>
+    <task id="LOCAL-00001" summary="beginning utilities and class creations">
+      <option name="closed" value="true" />
+      <created>1711831360193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711831360193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="beginning utilities and class creations" />
+    <option name="LAST_COMMIT_MESSAGE" value="beginning utilities and class creations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Jade/Window.java</url>
+          <url>file://$PROJECT_DIR$/src/com/jade/Window.java</url>
           <line>92</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Jade/Window.java</url>
+          <url>file://$PROJECT_DIR$/src/com/jade/Window.java</url>
           <line>41</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

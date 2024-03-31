@@ -1,11 +1,10 @@
-package Jade;
+package com.jade;
 
-import util.Constants;
-import util.Time;
+import com.util.Constants;
+import com.util.Time;
 
 import javax.swing.JFrame;
 import java.awt.*;
-import java.awt.event.KeyEvent;
 
 
 public class Window extends JFrame implements Runnable {

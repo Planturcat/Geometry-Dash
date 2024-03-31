@@ -1,5 +1,5 @@
 package com.main;
-import Jade.Window;
+import com.jade.Window;
 
 public class Main {
     public static void main(String[] args) {
